@@ -1,4 +1,5 @@
 [console_scripts]
+motor_controller_node = real_bot.motor_control:main
 publisher_rpi_node = real_bot.publisher:main
 subscriber_rpi_node = real_bot.subscriber:main
 

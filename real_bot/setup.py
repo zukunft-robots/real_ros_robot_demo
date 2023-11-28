@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publisher_rpi_node = real_bot.publisher:main',
+                'publisher_rpi_node = real_bot.publisher:main',
                 'subscriber_rpi_node = real_bot.subscriber:main',
+                'motor_controller_node = real_bot.motor_control:main',
         ],
     },
 )

@@ -1,0 +1,23 @@
+[3.370s] Invoking command in '/home/ubuntu/ros_ws/src/real_ros_robot_demo/real_bot': PYTHONPATH=/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/prefix_override:/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/real_bot build --build-base /home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/build install --record /home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/install.log --single-version-externally-managed
+[4.062s] running egg_info
+[4.064s] writing ../build/real_bot/real_bot.egg-info/PKG-INFO
+[4.066s] writing dependency_links to ../build/real_bot/real_bot.egg-info/dependency_links.txt
+[4.067s] writing entry points to ../build/real_bot/real_bot.egg-info/entry_points.txt
+[4.068s] writing requirements to ../build/real_bot/real_bot.egg-info/requires.txt
+[4.068s] writing top-level names to ../build/real_bot/real_bot.egg-info/top_level.txt
+[4.202s] reading manifest file '../build/real_bot/real_bot.egg-info/SOURCES.txt'
+[4.206s] writing manifest file '../build/real_bot/real_bot.egg-info/SOURCES.txt'
+[4.207s] running build
+[4.207s] running build_py
+[4.210s] running install
+[4.213s] running install_lib
+[4.220s] running install_data
+[4.223s] running install_egg_info
+[4.229s] removing '/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages/real_bot-0.0.0-py3.8.egg-info' (and everything under it)
+[4.231s] Copying ../build/real_bot/real_bot.egg-info to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages/real_bot-0.0.0-py3.8.egg-info
+[4.237s] running install_scripts
+[4.295s] Installing motor_controller_node script to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/real_bot
+[4.297s] Installing publisher_rpi_node script to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/real_bot
+[4.298s] Installing subscriber_rpi_node script to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/real_bot
+[4.299s] writing list of installed files to '/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/install.log'
+[4.389s] Invoked command in '/home/ubuntu/ros_ws/src/real_ros_robot_demo/real_bot' returned '0': PYTHONPATH=/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/prefix_override:/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/real_bot build --build-base /home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/build install --record /home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/install.log --single-version-externally-managed
