@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000876] (real_bot) JobQueued: {'identifier': 'real_bot', 'dependencies': OrderedDict()}
+[0.001746] (real_bot) JobStarted: {'identifier': 'real_bot'}
+[0.099286] (-) TimerEvent: {}
+[0.202214] (-) TimerEvent: {}
+[0.304020] (-) TimerEvent: {}
+[0.405844] (-) TimerEvent: {}
+[0.507229] (-) TimerEvent: {}
+[0.609244] (-) TimerEvent: {}
+[0.711101] (-) TimerEvent: {}
+[0.811974] (-) TimerEvent: {}
+[0.912592] (-) TimerEvent: {}
+[1.013247] (-) TimerEvent: {}
+[1.113837] (-) TimerEvent: {}
+[1.214410] (-) TimerEvent: {}
+[1.315119] (-) TimerEvent: {}
+[1.416005] (-) TimerEvent: {}
+[1.517036] (-) TimerEvent: {}
+[1.618309] (-) TimerEvent: {}
+[1.719936] (-) TimerEvent: {}
+[1.821702] (-) TimerEvent: {}
+[1.923113] (-) TimerEvent: {}
+[2.024803] (-) TimerEvent: {}
+[2.125678] (-) TimerEvent: {}
+[2.226279] (-) TimerEvent: {}
+[2.326859] (-) TimerEvent: {}
+[2.427414] (-) TimerEvent: {}
+[2.527986] (-) TimerEvent: {}
+[2.628597] (-) TimerEvent: {}
+[2.729188] (-) TimerEvent: {}
+[2.829839] (-) TimerEvent: {}
+[2.930497] (-) TimerEvent: {}
+[3.031157] (-) TimerEvent: {}
+[3.131924] (-) TimerEvent: {}
+[3.232723] (-) TimerEvent: {}
+[3.333482] (-) TimerEvent: {}
+[3.369472] (real_bot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/real_bot', 'build', '--build-base', '/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/build', 'install', '--record', '/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros_ws/src/real_ros_robot_demo/real_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.31.178 38488 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros_ws/src/real_ros_robot_demo/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot:/home/ubuntu/install/real_bot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.31.178 38488 192.168.31.92 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/prefix_override:/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages:/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages:/home/ubuntu/install/real_bot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[3.433710] (-) TimerEvent: {}
+[3.534568] (-) TimerEvent: {}
+[3.635217] (-) TimerEvent: {}
+[3.735837] (-) TimerEvent: {}
+[3.836432] (-) TimerEvent: {}
+[3.937014] (-) TimerEvent: {}
+[4.037665] (-) TimerEvent: {}
+[4.064027] (real_bot) StdoutLine: {'line': b'running egg_info\n'}
+[4.066109] (real_bot) StdoutLine: {'line': b'writing ../build/real_bot/real_bot.egg-info/PKG-INFO\n'}
+[4.067903] (real_bot) StdoutLine: {'line': b'writing dependency_links to ../build/real_bot/real_bot.egg-info/dependency_links.txt\n'}
+[4.068794] (real_bot) StdoutLine: {'line': b'writing entry points to ../build/real_bot/real_bot.egg-info/entry_points.txt\n'}
+[4.069468] (real_bot) StdoutLine: {'line': b'writing requirements to ../build/real_bot/real_bot.egg-info/requires.txt\n'}
+[4.070052] (real_bot) StdoutLine: {'line': b'writing top-level names to ../build/real_bot/real_bot.egg-info/top_level.txt\n'}
+[4.137803] (-) TimerEvent: {}
+[4.203497] (real_bot) StdoutLine: {'line': b"reading manifest file '../build/real_bot/real_bot.egg-info/SOURCES.txt'\n"}
+[4.207904] (real_bot) StdoutLine: {'line': b"writing manifest file '../build/real_bot/real_bot.egg-info/SOURCES.txt'\n"}
+[4.208480] (real_bot) StdoutLine: {'line': b'running build\n'}
+[4.208920] (real_bot) StdoutLine: {'line': b'running build_py\n'}
+[4.211707] (real_bot) StdoutLine: {'line': b'running install\n'}
+[4.214519] (real_bot) StdoutLine: {'line': b'running install_lib\n'}
+[4.222042] (real_bot) StdoutLine: {'line': b'running install_data\n'}
+[4.224634] (real_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.230742] (real_bot) StdoutLine: {'line': b"removing '/home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages/real_bot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.232985] (real_bot) StdoutLine: {'line': b'Copying ../build/real_bot/real_bot.egg-info to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/python3.8/site-packages/real_bot-0.0.0-py3.8.egg-info\n'}
+[4.237925] (-) TimerEvent: {}
+[4.238433] (real_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.297197] (real_bot) StdoutLine: {'line': b'Installing motor_controller_node script to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/real_bot\n'}
+[4.298794] (real_bot) StdoutLine: {'line': b'Installing publisher_rpi_node script to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/real_bot\n'}
+[4.299522] (real_bot) StdoutLine: {'line': b'Installing subscriber_rpi_node script to /home/ubuntu/ros_ws/src/real_ros_robot_demo/install/real_bot/lib/real_bot\n'}
+[4.301206] (real_bot) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros_ws/src/real_ros_robot_demo/build/real_bot/install.log'\n"}
+[4.338199] (-) TimerEvent: {}
+[4.390208] (real_bot) CommandEnded: {'returncode': 0}
+[4.438411] (-) TimerEvent: {}
+[4.542052] (-) TimerEvent: {}
+[4.642930] (-) TimerEvent: {}
+[4.744245] (-) TimerEvent: {}
+[4.768812] (real_bot) JobEnded: {'identifier': 'real_bot', 'rc': 0}
+[4.771967] (-) EventReactorShutdown: {}

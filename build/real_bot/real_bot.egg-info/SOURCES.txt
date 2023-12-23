@@ -9,6 +9,7 @@ setup.py
 ../build/real_bot/real_bot.egg-info/top_level.txt
 ../build/real_bot/real_bot.egg-info/zip-safe
 real_bot/__init__.py
+real_bot/motor_control.py
 real_bot/publisher.py
 real_bot/subscriber.py
 resource/real_bot
