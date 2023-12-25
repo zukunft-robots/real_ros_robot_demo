@@ -23,6 +23,10 @@ setup(
                 'publisher_rpi_node = real_bot.publisher:main',
                 'subscriber_rpi_node = real_bot.subscriber:main',
                 'motor_controller_node = real_bot.motor_control:main',
+                'cam_sub_node = real_bot.camera_sub:main',
+                'cam_pub_node = real_bot.camera_pub:main',
+                'tele_node = real_bot.teleop_test:main',
+                
         ],
     },
 )
