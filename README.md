@@ -16,7 +16,7 @@ To run the ROBOT using color detection algorithm:
         ros2 run real_bot cam_pub_node                                         //publishing_raspi_camera
   
   
-        ros2 run real_bot cam_sub_node                                         //publishing opencv algorithm 
+        ros2 run real_bot cam_sub_node                                         //publishing_opencv_algorithm 
   
   
         ros2 run real_bot motor_controller_node                                
