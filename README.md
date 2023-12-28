@@ -6,7 +6,7 @@ This is a real mobile robot using Raspberry pi
 Install UBUNTU & ROS in Raspberry pi
 
 
-          version: Ros2 Foxy Fitzroy
+          version: Ros2 Foxy Fitzroy  #refer official ROS2 Documentation
 
 
 
