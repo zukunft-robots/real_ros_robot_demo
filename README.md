@@ -11,6 +11,8 @@ Install UBUNTU & ROS in Raspberry pi
 
 
 Create a new workspace using the command:
+
+
         mkdir -p ~/ros_ws/src
 
 
