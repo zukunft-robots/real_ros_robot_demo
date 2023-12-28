@@ -44,23 +44,22 @@ To run the ROBOT using teleop_twist_keyboard:
 
 To run the ROBOT using color detection algorithm:
         
-          sudo apt update
+        sudo apt update
+
+        sudo apt upgrade
+
+        sudo apt -y install python-cv-bridge    
+
+        sudo  apt-get install python3-opencv
 
 
-          sudo apt upgrade
-
-           sudo apt -y install python-cv-bridge
-
-           sudo  apt-get install python3-opencv
+        sudo apt-get install python3-dev python3-numpy
 
 
-           sudo apt-get install python3-dev python3-numpy
-
-
-        ros2 run real_bot cam_pub_node                                         //publishing_raspi_camera
+        ros2 run real_bot cam_pub_node                                         #publishing_raspi_camera
   
   
-        ros2 run real_bot cam_sub_node                                         //publishing_opencv_algorithm 
+        ros2 run real_bot cam_sub_node                                         #publishing_opencv_algorithm 
   
   
         ros2 run real_bot motor_controller_node                                
