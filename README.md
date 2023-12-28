@@ -1,17 +1,34 @@
 # real_ros_robot_demo
 This is a real mobile robot using Raspberry pi
+
+
+
 Install UBUNTU & ROS in Raspberry pi
-    version: Ros2 Foxy Fitzroy
+
+
+          version: Ros2 Foxy Fitzroy
+
+
+
 Create a new workspace using the command:
-    mkdir -p ~/ros_ws/src
+        mkdir -p ~/ros_ws/src
+
+
+
 clone the Git repository:
-    git clone "URL"
+
+
+         git clone "URL"
 
 Build the package:
-    colcon build
+
+
+        colcon build
 
 Source the file:
-    source install/setup.bash
+
+
+       source install/setup.bash
 
 
 PACKAGE NAME: real_bot
